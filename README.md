@@ -51,3 +51,5 @@ Copy
 Edit
 hugo
 All static files will be generated in the public/ folder.
+
+Host Link  :- https://preeminent-elf-c333f4.netlify.app/
