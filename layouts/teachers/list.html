@@ -1,0 +1,7 @@
+<h1>All Teachers</h1>
+<ul style="list-style: none;">
+  {{ range .Pages }}
+    <li><a style="text-decoration: none;" href="{{ .RelPermalink }}">{{ .Title }}</a> – Subject: {{ .Params.subject }}</li>
+  {{ end }}
+  <a style="text-decoration: none;" href="/">Back to Home</a>
+</ul>

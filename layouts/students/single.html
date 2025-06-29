@@ -1,0 +1,9 @@
+<h1>{{ .Title }}</h1>
+<img src="{{ .Params.photo }}" alt="{{ .Title }}" width="200" />
+<p><strong>Roll Number:</strong> {{ .Params.roll }}</p>
+<p><strong>Class:</strong> {{ .Params.class }}</p>
+<p><strong>Date of Birth:</strong> {{ .Params.dob }}</p>
+<p><strong>Hobbies:</strong> {{ delimit .Params.hobbies ", " }}</p>
+<p>{{ .Content }}</p>
+
+<a href="/students/">Back To Students Details</a>

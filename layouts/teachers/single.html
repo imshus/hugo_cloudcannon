@@ -1,0 +1,8 @@
+<h1>{{ .Title }}</h1>
+<img src="{{ .Params.photo }}" alt="{{ .Title }}" width="200" />
+<p><strong>Employee ID:</strong> {{ .Params.employee_id }}</p>
+<p><strong>Subject:</strong> {{ .Params.subject }}</p>
+<p><strong>Experience:</strong> {{ .Params.experience }} years</p>
+<p>{{ .Content }}</p>
+
+<a href="/teachers/">Back To Teachers Details</a>
